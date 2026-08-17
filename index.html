@@ -2,20 +2,32 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
     <link rel="stylesheet" href="style.css">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
+   
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
-    <style type="text/tailwindcss">
+   
+    <link rel="icon" type="image/png" href="./images/port-favicon.png">
+   
+   <style type="text/tailwindcss">
       @theme {
-       --color-primary:#A35E47
+       --color-primary:#E0311A;
       }
     </style>
   </head>
+  
+  
   <body>
-    <header class=" pt-2 text-white flex justify-between items-center pl-10 pr-10 pt-5 md:pt-10 ">
+  <!-- =================== NAVIGATION BAR =====================================-->
+    <header class=" pt-2 text-white flex justify-between items-center pl-20 pr-20 pt-5 md:pt-10 ">
       
       <div class="text-[40px]" style="font-family:Playwrite IE, cursive;
         font-optical-sizing: auto;">
@@ -23,14 +35,14 @@
       </div>
       
       <ul class=" hidden text-[20px] md:flex gap-10  ">
-       <a href="#" class="hover:text-primary"> <li> Home</li> </a> 
+       <a href="home-#" class="hover:text-primary"> <li> Home</li> </a> 
        <a href="#" class="hover:text-primary"> <li>About </li> </a>
        <a href="#" class="hover:text-primary"> <li> Services</li> </a> 
        <a href="#" class="hover:text-primary"> <li> Projects</li> </a> 
        <a href="#" class="hover:text-primary"> <li> Contact </li> </a> 
       </ul>
 
-       <a href="$" class="hidden lg:block hover:scale-120 transition-transform duration-300"> <div class=" text-[20px] bg-primary w-40 h-15 pl-5 pr-5 pt-3 rounded-[10px]  ">
+       <a href="$" class="hidden lg:block hover:scale-110 transition-transform duration-300"> <div class=" text-[20px] bg-primary w-40 h-15 pl-5 pr-5 pt-3 rounded-[10px]  ">
         Let's Talk
       <i class="fa-solid fa-arrow-right-long"></i>
     </div> </a>
@@ -41,8 +53,54 @@
     
     </header>
 
-   
-   
+    <!-- ====================== SECTION 1 =================================-->
+    <a href="home-#">
+    <section class="flex  pl-10 pr-10 mr-10 ml-10 mt-10 pt-10 border-[#211C19] border-[1px]">
+      
+      <div class=" w-80 lg:w-250">
+        <p class=" text-[15px] text-primary font-bold "> HELLO, MY NAME IS EZIONYINYE.</p> 
+        <p class="text-[40px] text-white font-bold leading-15 mt-5 lg:text-[50px] "> I add <span class="text-primary"> functionality </span> to your designs that bring them to <span class="text-primary">life </span> <span class="text-[#C49A5A]"> . </span> </p>
+        <p class="text-[#9C9A9A] leading-8 mt-5"> A Front-end Developer on the journey of learning, growing and crafting intuitive, beautiful and meaningful experiences for web and mobile.</p>
+        
+        <div class=" mt-5 mb-10 lg:flex  gap-10">
+
+          <a href="£" class="inline-block hover:scale-110 transition-transform duration-300 ">
+          <div class=" text-[15px] bg-primary font-bold w-70 h-15 pl-6 pr-3 pt-4 text-white rounded-[10px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0 ">
+            View My Work 
+            <i class="fa-solid fa-arrow-right-long"></i>
+            </div> </a>
+
+            <a href="£"  class=" inline-block hover:scale-110 transition-transform duration-300">
+            <div class=" text-[15px] bg-[#0c0b0b] font-bold w-70 h-15 pl-5 pr-3 pt-4 rounded-[10px] text-white border-white border-[1px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0">
+              Download CV
+              <i class="fa-solid fa-download"></i>
+              </div> </a>
+          </div>
+      </div>
+
+      <div id="hero-bg" class=" w-300 hidden lg:block ">
+       <img src="./images/placeholder-image.png" alt="" class="h-110 w-auto pl-50 pt-10">
+
+       <a href="£" class="inline-block hover:scale-110 transition-transform duration-300">
+          <div class="flex w-60 h-30 border-[#9C9A9A] border-[1px] ml-40 rounded-[10px]  bg-[#0c0b0b]  gap-4 pt-3 pl-3 pr-3" id="hero-div">
+            <div class="bg-primary w-10 h-10 pt-2 pr-1 pb-2 pl-1  rounded-[50%]">
+              <i class="fa-solid fa-rocket text-white text-[25px]"></i>
+            </div>
+           <div>
+            <p class="text-[#9C9A9A]"> Currently Learning</p>
+            <p class="text-white font-bold"> UX Methodologies </p>
+            <p class="text-[#C49A5A] font-bold mt-4"> See my journey <i class="fa-solid fa-arrow-right-long"></i> </p>
+           </div>
+         </div>
+        </a>
+      
+        </div>
+      
+      </a>
+    </section>
+    </a>
+
+    
   </body>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </html>
