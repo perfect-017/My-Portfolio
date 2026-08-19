@@ -34,9 +34,19 @@ ul > a:hover::after {
 
 section{
         background-color:#0c0b0b;
-         box-shadow: 0 0 15px black;
+         box-shadow: 0px 0px 5px grey;
 
          }
+
+section:nth-of-type(2){
+    background-color: transparent;
+    box-shadow: none;
+}
+
+ section:nth-of-type(2)> div {
+    background-color:#0c0b0b;
+         box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.61);
+}
         
 
 
@@ -47,6 +57,12 @@ section{
 
 }
 
+#pos-pic{
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
 
 #hero-div{
     position: absolute;
@@ -55,12 +71,3 @@ section{
     
     z-index: 3;
 }
-
-/* 
-#hero-div2{
-    position: absolute;
-    top:1000px;
-    left: 220px;
-    
-    z-index: 3;
-} */

@@ -27,7 +27,7 @@
   
   <body>
   <!-- =================== NAVIGATION BAR =====================================-->
-    <header class=" pt-2 text-white flex justify-between items-center pl-20 pr-20 pt-5 md:pt-10 ">
+    <header class=" pt-2 text-white flex justify-between items-center  pl-20 pr-20 pt-5 md:pt-10 ">
       
       <div class="text-[40px]" style="font-family:Playwrite IE, cursive;
         font-optical-sizing: auto;">
@@ -35,9 +35,9 @@
       </div>
       
       <ul class=" hidden text-[20px] md:flex gap-10  ">
-       <a href="home-#" class="hover:text-primary"> <li> Home</li> </a> 
-       <a href="#" class="hover:text-primary"> <li>About </li> </a>
-       <a href="#" class="hover:text-primary"> <li> Services</li> </a> 
+       <a href="#home" class="hover:text-primary"> <li> Home</li> </a> 
+       <a href="#about" class="hover:text-primary"> <li>About </li> </a>
+       <a href="#services" class="hover:text-primary"> <li> Services</li> </a> 
        <a href="#" class="hover:text-primary"> <li> Projects</li> </a> 
        <a href="#" class="hover:text-primary"> <li> Contact </li> </a> 
       </ul>
@@ -47,15 +47,15 @@
       <i class="fa-solid fa-arrow-right-long"></i>
     </div> </a>
 
-    <a href="£" class="lg:hidden">
+    <a href="£" class=" mt-5 lg:hidden">
       <i class="fa-solid fa-bars text-[20px]"></i>
       </a>
     
     </header>
 
     <!-- ====================== SECTION 1 =================================-->
-    <a href="home-#">
-    <section class="flex  pl-10 pr-10 mr-10 ml-10 mt-10 pt-10 border-[#211C19] border-[1px]">
+    
+    <section class="flex  pl-10 pr-10 mr-10 ml-10 mt-10 pt-10 mb-10 border-[#211C19] border-[1px]" id="home">
       
       <div class=" w-80 lg:w-250">
         <p class=" text-[15px] text-primary font-bold "> HELLO, MY NAME IS EZIONYINYE.</p> 
@@ -71,7 +71,7 @@
             </div> </a>
 
             <a href="£"  class=" inline-block hover:scale-110 transition-transform duration-300">
-            <div class=" text-[15px] bg-[#0c0b0b] font-bold w-70 h-15 pl-5 pr-3 pt-4 rounded-[10px] text-white border-white border-[1px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0">
+            <div class=" text-[15px] bg-[#0c0b0b] font-bold w-70 h-15 pl-7 pr-3 pt-4 rounded-[10px] text-white border-white border-[1px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0">
               Download CV
               <i class="fa-solid fa-download"></i>
               </div> </a>
@@ -79,9 +79,9 @@
       </div>
 
       <div id="hero-bg" class=" w-300 hidden lg:block ">
-       <img src="./images/placeholder-image.png" alt="" class="h-110 w-auto pl-50 pt-10">
+       <img src="./images/placeholder-image.png" alt="" class="h-110 w-auto pl-50  " id="pos-pic">
 
-       <a href="£" class="inline-block hover:scale-110 transition-transform duration-300">
+       <a href="£">
           <div class="flex w-60 h-30 border-[#9C9A9A] border-[1px] ml-40 rounded-[10px]  bg-[#0c0b0b]  gap-4 pt-3 pl-3 pr-3" id="hero-div">
             <div class="bg-primary w-10 h-10 pt-2 pr-1 pb-2 pl-1  rounded-[50%]">
               <i class="fa-solid fa-rocket text-white text-[25px]"></i>
@@ -89,7 +89,7 @@
            <div>
             <p class="text-[#9C9A9A]"> Currently Learning</p>
             <p class="text-white font-bold"> UX Methodologies </p>
-            <p class="text-[#C49A5A] font-bold mt-4"> See my journey <i class="fa-solid fa-arrow-right-long"></i> </p>
+            <p class="text-[#C49A5A] font-bold mt-4 inline-block hover:scale-105 transition-transform duration-300"> See my journey <i class="fa-solid fa-arrow-right-long"></i> </p>
            </div>
          </div>
         </a>
@@ -98,9 +98,73 @@
       
       </a>
     </section>
-    </a>
 
+
+    <!--===============================SECTION 2======================================-->
     
+      <section class="text-white flex flex-col gap-10 mr-10 ml-10 lg:flex-row "   id="about">
+        
+        <div class="text-white  mt-10  pl-10 pr-10 pt-10 pb-10 w-100 lg:w-200">
+          <h2 class=" text-[25px] text-primary text-center"> <i class="fa-solid fa-face-smile-beam"></i> WHO I AM </h2>
+          <p class="  leading-[2] "> 
+            I am Inquisitive, creative, a stickler for time, cooperative and always looking for new and improved ways to be better as person and in what I do. <br/>
+            
+            I got into the technology industry because how it promotes creativity amd services people. I believe Front-End Development isn't just about building a design but ensuring it is one people can flow and efficiently interact with. <br/>
+            
+            
+          </p>
+
+             <a href="$" class="hover:scale-110 transition-transform duration-300">
+               <div class=" text-[20px] text-white w-50 h-15 pl-5 pr-5 pt-3 rounded-[10px] bg-[#C49A5A]  hover:scale-110 transition-transform duration-300 mt-5">
+                           Contact Me
+                 <i class="fa-solid fa-arrow-right-long"></i>
+               </div> 
+              </a>
+
+        </div>
+
+         <div class="text-white  mt-10 pb-5 pl-10 pr-10 pt-10 font-center lg:pb-0">
+            <h2 class=" text-[25px] text-primary text-center"> <i class="fa-solid fa-dumbbell"></i> SKILLS</h2>
+            <ul class="leading-[6] ">
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-html5 text-[20px]"></i> <span class="w-42">HTML</span> <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[90%] h-1 bg-primary rounded-md "></div></div> 90%</li>
+             
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-css3-alt text-[20px]"></i> <span class="w-42"> CSS</span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[90%] h-1 bg-primary rounded-md "></div></div> 90%</li>
+             
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300" > <i class="fa-brands fa-square-js text-[20px]"></i> <span class="w-42" > Javascript </span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[80%] h-1 bg-primary rounded-md "></div></div> 80%</li>
+              
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-tailwind-css text-[20px]"></i> <span class="w-42"> Tailwind</span>  <div  class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[85%] h-1 bg-primary rounded-md"></div></div> 85%</li>
+              
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-solid fa-mobile-screen text-[20px]"></i> <span class="w-42 flex flex-col lg:blocl"> Mobile Design </span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[85%] h-1 bg-primary rounded-md"></div></div> 85%</li>
+           </ul>
+
+
+
+           
+         </div>
+
+         <div class="text-white  mt-10  pl-10 pr-10 pt-10 pb-5 lg:w-180 pb-0">
+          <h2 class=" text-[25px] text-primary text-center"> <i class="fa-solid fa-screwdriver-wrench"></i> TOOLS I USE </h2>
+          <ul class="leading-[5]">
+            <li class="hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-visual-studio text-primary text-[20px]"></i> VS Code</li>
+            <li class="hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-figma text-primary text-[20px]"></i> Figma</li>
+            <li class="hover:scale-105 transition-transform duration-300"><i class="fa-brands fa-github text-primary text-[20px]"></i> Git Hub</li>
+            <li class="hover:scale-105 transition-transform duration-300"> <i class="fa-solid fa-v text-primary text-[20px]"></i> Vercel</li>
+            <li class="hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-chrome text-primary text-[20px]"></i> Chrome Dev Tools</li>
+            <li class="hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-tailwind-css text-primary text-[20px]"></i> Tailwind </li>
+            </ul>
+         </div>
+         
+      </section>
+    
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, accusamus eius optio accusantium est ratione dolores iste consequatur fugiat recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quaerat assumenda perferendis atque facilis ut dolor omnis quisquam et consequuntur.
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro dicta recusandae tempore asperiores magnam fuga est perferendis commodi corrupti sequi numquam, praesentium aliquid, laudantium magni deleniti beatae laboriosam expedita dolores nulla? Accusantium maxime ipsum aut repellendus odit dignissimos laborum debitis.
+
+
+
+
+
+
   </body>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </html>
