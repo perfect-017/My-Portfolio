@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
    
     <link rel="icon" type="image/png" href="./images/port-favicon.png">
+
+    <title> Ezionyinye - Front End Developer </title>
    
    <style type="text/tailwindcss">
       @theme {
@@ -25,12 +27,12 @@
   </head>
   
   
-  <body>
+  <body id="backup" >
   <!-- =================== NAVIGATION BAR =====================================-->
-    <header class=" pt-2 text-white flex justify-between items-center  pl-20 pr-20 pt-5 md:pt-10 ">
+    <header class=" pt-2 text-white flex justify-between items-center pl-10 pr-10 pt-5 md:pt-10 md:pl-20 md:pr-20">
       
-      <div class="text-[40px]" style="font-family:Playwrite IE, cursive;
-        font-optical-sizing: auto;">
+      <div class="text-[25px]" style="font-family:Playwrite IE, cursive;
+        font-optical-sizing: auto; lg:text-[40px]">
         Ezionyinye
       </div>
       
@@ -55,29 +57,29 @@
 
     <!-- ====================== SECTION 1 =================================-->
     
-    <section class="flex  pl-10 pr-10 mr-10 ml-10 mt-10 pt-10 mb-10 border-[#211C19] border-[1px]" id="home">
+    <section class="flex w-[300px] pl-10 pr-10 mr-10 ml-10 mt-10 pt-10 mb-10 border-[#211C19] border-[1px] lg:w-auto"  id="home">
       
-      <div class=" w-80 lg:w-250">
-        <p class=" text-[15px] text-primary font-bold "> HELLO, MY NAME IS EZIONYINYE.</p> 
-        <p class="text-[40px] text-white font-bold leading-15 mt-5 lg:text-[50px] "> I add <span class="text-primary"> functionality </span> to your designs that bring them to <span class="text-primary">life </span> <span class="text-[#C49A5A]"> . </span> </p>
-        <p class="text-[#9C9A9A] leading-8 mt-5"> A Front-end Developer on the journey of learning, growing and crafting intuitive, beautiful and meaningful experiences for web and mobile.</p>
+      <div class="w-[210px] text-center lg:w-250 text-left ">
+        <p class=" text-[14px] text-primary font-bold lg:text-[15px] "> HELLO, MY NAME IS EZIONYINYE.</p> 
+        <p class=" text-[35px] text-white font-bold leading-15 mt-5  lg:text-[50px] w-auto"> I add <span class="text-primary"> functionality </span> to your designs that bring them to <span class="text-primary">life </span> <span class="text-[#C49A5A]">.</span> </p>
+        <p class="text-[#9C9A9A] leading-8 mt-5 w-50 lg:w-auto"> A Front-end Developer on the journey of learning, growing and crafting intuitive, beautiful and meaningful experiences for web and mobile.</p>
         
         <div class=" mt-5 mb-10 lg:flex  gap-10">
 
           <a href="£" class="inline-block hover:scale-110 transition-transform duration-300 ">
-          <div class=" text-[15px] bg-primary font-bold w-70 h-15 pl-6 pr-3 pt-4 text-white rounded-[10px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0 ">
+          <div class=" text-[15px] bg-primary font-bold w-50 h-15 pl-6 pr-3 pt-4 text-white rounded-[10px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0 ">
             View My Work 
             <i class="fa-solid fa-arrow-right-long"></i>
             </div> </a>
 
             <a href="£"  class=" inline-block hover:scale-110 transition-transform duration-300">
-            <div class=" text-[15px] bg-[#0c0b0b] font-bold w-70 h-15 pl-7 pr-3 pt-4 rounded-[10px] text-white border-white border-[1px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0">
+            <div class=" text-[15px] bg-[#0c0b0b] font-bold w-50 h-15 pl-7 pr-3 pt-4 rounded-[10px] text-white border-white border-[1px] mt-10 flex justify-between items-center pb-5 lg:w-45 lg:block lg:mt-0 lg:pb-0">
               Download CV
               <i class="fa-solid fa-download"></i>
               </div> </a>
           </div>
       </div>
-
+<!--=======================SECTION1 SIDE HERO IMAGE=======================================-->
       <div id="hero-bg" class=" w-300 hidden lg:block ">
        <img src="./images/placeholder-image.png" alt="" class="h-110 w-auto pl-50  " id="pos-pic">
 
@@ -102,11 +104,11 @@
 
     <!--===============================SECTION 2======================================-->
     
-      <section class="text-white flex flex-col gap-10 mr-10 ml-10 lg:flex-row "   id="about">
+      <section class="text-white flex flex-col gap-10 mr-10 ml-10 lg:flex-row lg:w-auto "   id="about">
         
-        <div class="text-white  mt-10  pl-10 pr-10 pt-10 pb-10 w-100 lg:w-200">
+        <div class="text-white  mt-10  pl-10 pr-10 pt-10 pb-10 w-75 text-center lg:w-200 text-left">
           <h2 class=" text-[25px] text-primary text-center"> <i class="fa-solid fa-face-smile-beam"></i> WHO I AM </h2>
-          <p class="  leading-[2] "> 
+          <p class="text-center mt-5  leading-[2] lg:text-left "> 
             I am Inquisitive, creative, a stickler for time, cooperative and always looking for new and improved ways to be better as person and in what I do. <br/>
             
             I got into the technology industry because how it promotes creativity amd services people. I believe Front-End Development isn't just about building a design but ensuring it is one people can flow and efficiently interact with. <br/>
@@ -115,34 +117,34 @@
           </p>
 
              <a href="$" class="hover:scale-110 transition-transform duration-300">
-               <div class=" text-[20px] text-white w-50 h-15 pl-5 pr-5 pt-3 rounded-[10px] bg-[#C49A5A]  hover:scale-110 transition-transform duration-300 mt-5">
+               <div class=" text-[20px] text-white w-50 h-15 pl-5 pr-5 pt-3 pb-3 rounded-[10px] bg-[#C49A5A] flex justify-between items-center  hover:scale-110 transition-transform duration-300 mt-5">
                            Contact Me
                  <i class="fa-solid fa-arrow-right-long"></i>
                </div> 
               </a>
 
         </div>
-
-         <div class="text-white  mt-10 pb-5 pl-10 pr-10 pt-10 font-center lg:pb-0">
+<!--===================================== SECTION2 SKILLS ===============================-->
+         <div class="text-white  mt-10 pb-5 pl-10 pr-10 pt-10 text-center w-75 lg:pb-0 lg:text-left lg:w-auto">
             <h2 class=" text-[25px] text-primary text-center"> <i class="fa-solid fa-dumbbell"></i> SKILLS</h2>
             <ul class="leading-[6] ">
-              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-html5 text-[20px]"></i> <span class="w-42">HTML</span> <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[90%] h-1 bg-primary rounded-md "></div></div> 90%</li>
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-html5 text-[20px]"></i> <span class="w-42">HTML</span> <div class="w-40 h-1 bg-[#9C9A9A] rounded-md hidden lg:w-60 lg:block"> <div class="w-[90%] h-1 bg-primary rounded-md "></div></div><span class="hidden lg:block"> 90% </span> </li>
              
-              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-css3-alt text-[20px]"></i> <span class="w-42"> CSS</span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[90%] h-1 bg-primary rounded-md "></div></div> 90%</li>
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-css3-alt text-[20px]"></i> <span class="w-42"> CSS</span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md hidden lg:w-60 lg:block"> <div class="w-[90%] h-1 bg-primary rounded-md "></div></div> <span class="hidden lg:block"> 90% </span> </li>
              
-              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300" > <i class="fa-brands fa-square-js text-[20px]"></i> <span class="w-42" > Javascript </span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[80%] h-1 bg-primary rounded-md "></div></div> 80%</li>
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300" > <i class="fa-brands fa-square-js text-[20px]"></i> <span class="w-42" > Javascript </span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md hidden lg:w-60 lg:block"> <div class="w-[80%] h-1 bg-primary rounded-md "></div></div> <span class="hidden lg:block">80% </span> </li>
               
-              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-tailwind-css text-[20px]"></i> <span class="w-42"> Tailwind</span>  <div  class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[85%] h-1 bg-primary rounded-md"></div></div> 85%</li>
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-tailwind-css text-[20px]"></i> <span class="w-42"> Tailwind</span>  <div  class="w-40 h-1 bg-[#9C9A9A] rounded-md hidden lg:w-60 lg:block"> <div class="w-[85%] h-1 bg-primary rounded-md"></div></div> <span class="hidden lg:block"> 85% </span> </li>
               
-              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300"> <i class="fa-solid fa-mobile-screen text-[20px]"></i> <span class="w-42 flex flex-col lg:blocl"> Mobile Design </span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md lg:w-60"> <div class="w-[85%] h-1 bg-primary rounded-md"></div></div> 85%</li>
+              <li class="flex gap-3 items-center hover:scale-105 transition-transform duration-300 "> <i class="fa-solid fa-mobile-screen text-[20px]"></i> <span class="w-42 lg:blocK"> Mobile  Design </span>  <div class="w-40 h-1 bg-[#9C9A9A] rounded-md hidden lg:w-60 lg:block"> <div class="w-[85%] h-1 bg-primary rounded-md"></div> </div> <span class="hidden lg:block"> 85% </span> </li>
            </ul>
 
 
-
+<!--==================================SECTION3 TOOLS========================================-->
            
          </div>
 
-         <div class="text-white  mt-10  pl-10 pr-10 pt-10 pb-5 lg:w-180 pb-0">
+         <div class="text-white  mt-10  pl-10 pr-10 pt-10 pb-5 w-75 text-center lg:w-180 pb-0 lg:text-left">
           <h2 class=" text-[25px] text-primary text-center"> <i class="fa-solid fa-screwdriver-wrench"></i> TOOLS I USE </h2>
           <ul class="leading-[5]">
             <li class="hover:scale-105 transition-transform duration-300"> <i class="fa-brands fa-visual-studio text-primary text-[20px]"></i> VS Code</li>
@@ -158,21 +160,21 @@
 
 
       <!-- ============================= SECTION 3 ==================================================-->
-      <section class=" mt-20  pb-10 ml-10 pl-10 mr-10 pr-10 text-white" id="services">
+      <section class=" mt-20  pb-10 ml-10 pl-10 mr-10 pr-10 text-white w-75 lg:w-auto" id="services">
         <h2 class=" ml-15 text-[25px] text-primary pt-10 lg:ml-125"> <i class="fa-solid fa-laptop-code"></i> MY SERVICES </h2>
             <div>  
-
-              <div class="flex flex-col justify-between lg:flex-row">
-                 <div class=" w-90  lg:pr-20 lg:border-r-[1px] mt-5  "> <p class="text-[20px] text-primary" > UI/UX Design </p>
+<!-- =========================COLUMN 1=======================-->
+              <div class="flex flex-col justify-between leading-[2] lg:flex-row">
+                 <div class=" w-[200px] text-center lg:pr-20 lg:border-r-[1px] mt-5 lg:w-90 lg:text-left "> <p class="text-[20px] text-primary" > UI/UX Design </p>
                   <p> I create thoughtful interfaces, clear user journeys, and purposeful interactions come together to create digital experiences that are both beautiful and effortless to use. </p>
                   </div>  
-
-                 <div class=" w-90  border-[#9C9A9A]  mt-5 lg:border-r-[1px] pr-20"> <p class="text-[20px] text-primary"> Front-End Development </p> 
+<!--========================= COLUMN 2=======================-->
+                 <div class="w-[300px] text-center border-[#9C9A9A]  mt-5 lg:border-r-[1px] pr-20 lg:w-90 text-left"> <p class="text-[20px] text-primary"> Front-End Development </p> 
                   <p> From concept to code, I build engaging, high-performance interfaces that bring designs to life with precision, functionality, and modern web technologies.
                    </p>
                    </div>
-
-                 <div class=" w-70  mt-5"> <p class="text-[20px] text-primary"> Responsive Design </p> 
+<!--========================= COLUMN 3=======================-->
+                 <div class="w-[240px] text-center mt-5 lg:w-70 text-left"> <p class="text-[20px] text-primary"> Responsive Design </p> 
                   <p> Every screen deserves a seamless experience. I ensure websites adapt smoothly to different devices and screen sizes while maintaining their functionality and visual quality.
                     </p>
                   </div>  
@@ -193,11 +195,11 @@
 
             <div id="head-sec4a" class="text-[#C49A5A] hover:scale-105 transition-transform duration-300"> View all Projects  <i class="fa-solid fa-arrow-right-long"></i></div>
           </div>
-
-          <div class="flex flex-col gap-10 lg:flex-row" id="flex-div4">
+<!--========================= BOX 1=======================-->
+          <div class="flex flex-col gap-10 lg:flex-row " id="flex-div4">
 
            
-              <div class="w-90 h-auto mt-10 hover:scale-105 transition-transform duration-300" id="section-IV ">   
+              <div class="w-75 h-auto mt-10  hover:scale-105 transition-transform duration-300 lg:w-90" id="section-IV ">   
                 <a href="£" >
                  <div class="" id="div-sec4a"><img src="./images/dariusz-sankowski-mj2NwYH3wBA-unsplash.jpg" alt=""></div>
                  <div class="mt-5 pl-5"> <p class="text-[20px] font-bold leading-[2]"> Travel Landing Page</p>
@@ -205,8 +207,8 @@
                  
                  </a>
                </div>
-
-                <div class="w-90 h-auto mt-10 hover:scale-105 transition-transform duration-300" id="section-IV ">   
+<!--========================= BOX 2=======================-->
+                <div class="w-75 h-auto mt-10 hover:scale-105 transition-transform duration-300 lg:w-90" id="section-IV ">   
                 <a href="£" >
                  <div class="" id="div-sec4a"><img src="./images/team-nocoloco-VJyb-g-N5B8-unsplash.jpg" alt="" class="h-52"></div>
                  <div class="mt-5 pl-5"> <p class="text-[20px] font-bold leading-[2]"> E-Commerce Website</p>
@@ -216,8 +218,8 @@
                  <div> 
                   </div>
                </div>
-
-               <div class="w-90 h-auto mt-10 hover:scale-105 transition-transform duration-300" id="section-IV ">   
+<!--========================= BOX 3 =======================-->
+               <div class="w-75 h-auto mt-10 hover:scale-105 transition-transform duration-300 lg:90" id="section-IV ">   
                 <a href="£" >
                  <div class="" id="div-sec4a"><img src="./images/hey-beauti-magazine-HjccMRFwqv0-unsplash.jpg" alt="" class="h-52 w-[100%]"></div>
                  <div class="mt-5 pl-5"> <p class="text-[20px] font-bold leading-[2]"> Fashion Blog</p>
@@ -226,9 +228,9 @@
                  </a>
                </div>
 
+<!--========================= BOX 4 =======================-->
 
-
-                <div class="w-90 h-auto mt-10 hover:scale-105 transition-transform duration-300" id="section-IV ">   
+                <div class="w-75 h-auto mt-10 hover:scale-105 transition-transform duration-300 lg:w-90" id="section-IV ">   
                 <a href="£" >
                  <div class="" id="div-sec4a"><img src="./images/balazs-ketyi-sScmok4Iq1o-unsplash.jpg" alt=""></div>
                  <div class="mt-5 pl-5"> <p class="text-[20px] font-bold leading-[2]"> Fintech Website</p>
@@ -242,8 +244,8 @@
                </div>
 
           </section>
-
-          <section class="text-white  mt-10 pb-10 ml-10 pl-10 mr-10 w-90 pr-10 lg:w-200 lg:ml-75 pr-0  ">
+<!--========================= SECTION 5=======================-->
+          <section class="text-white  mt-10 pb-10 ml-10 pl-10 mr-10 w-75 pr-10 lg:w-200 lg:ml-75 pr-0  ">
             <div class="flex justify-center items-center pt-10 gap-5 lg:gap-10">
               <div class="w-20 h-20 text-[40px] bg-primary pl-2 pt-2 rounded-md pr-2 lg:text-[50px] pr-0 lg:pt-1"> <i class="fa-regular fa-envelope"></i></div>
               <div class="text-[18px] lg:text-[25px]"> <p> Have a project in mind </p>
@@ -259,7 +261,7 @@
 
             </section>
 <!-- ============================FOOTER==========================-->
-             <footer class="mt-20 ml-10 mr-10 pl-10 pr-10 pb-10 mb-10 text-white border-[#9C9A9A] border-[1px]">
+             <footer class="mt-20 ml-10 mr-10 pl-10 pr-10 pb-10 mb-10 w-75 text-white border-[#9C9A9A] border-[1px] lg:w-auto">
               <div class="flex flex-col justify-between items-center text-center lg:flex-row lg:text-left ">
                   <div>
                         <div class="text-[40px] text-white pt-10 lg:pt-0" style="font-family:Playwrite IE, cursive;
@@ -298,16 +300,24 @@
                     </div>   </div>
 
 
-                     <div class="mt-10 leading-[3] lt:mt-5">
-                        <h3> Let's Connect </h3>
+                     <div class="mt-6 leading-[3] lt:mt-5">
+                        <h3> LET'S CONNECT </h3>
                     <div class="text-[#9C9A9A] mt-2 "> <p class="hover:scale-105 transition-transform duration-300 hover:text-[#C49A5A]"> <a href="$" class=""> <i class="fa-regular fa-envelope"></i> ehibuduezionyinye@gmail.com</a> </p> 
                       <p class="hover:scale-105 transition-transform duration-300 hover:text-[#C49A5A]"> <a href="$" class=""> <i class="fa-solid fa-phone"></i> +2348100509625</a> </p> 
                       <p class="hover:scale-105 transition-transform duration-300 hover:text-[#C49A5A]"> <a href="$" class=""> <i class="fa-solid fa-location-dot"></i> Rivers State, Nigeria.</a> </p> 
-                    </div>   </div>
+                    </div>  
+                       
+                  </div>
                 
                  </div>
+                 <div class="text-[#9C9A9A] text-center text-[10px] pt-5"> &copy;Ezionyinye2026 All rights Reserved</div>
               </footer>
-             
+              <a href='#backup'>
+                  <div class="fixed bottom-15 right-10 z-100 p-3 rounded-full bg-white/10 backdrop-blur-md border-white/20 text-white text-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 shadow-lg lg:bottom-10 lg:right-5"> 
+                    <i class="fa-solid fa-arrow-up-long text-primary text-[20px] "></i> 
+                  </div>
+            </a>
+            
   </body>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </html>
